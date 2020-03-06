@@ -37,6 +37,19 @@ print("Hello {name}, your balance is {blc}.".format(name="Adam", blc=230.2346))
 print("Hello {0}, your balance is {blc}.".format("Adam", blc=230.2346))
 
 
+def Pig_Latin(word):
+    first_letter = word[0]
+    #check if vowel
+    if first_letter in 'aeiou':
+        pig_word = word + 'ay'
+    else:
+        pig_word = word[1:] + first_letter + 'ay'
+        return pig_word
+
+
+
+
+
 
 
 
