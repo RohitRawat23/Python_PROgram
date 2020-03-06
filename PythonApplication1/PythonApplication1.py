@@ -16,7 +16,6 @@ difference=a-b
 print("difference:",difference)
 
 
-
 s1 = 'Apple'
 s2 = 'Pie'
 s3 = 'Sauce'
