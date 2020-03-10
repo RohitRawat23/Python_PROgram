@@ -46,6 +46,10 @@ def Pig_Latin(word):
         return pig_word
 
 
+    for i in range(1,11):
+        print(i,end=' ')
+
+
 
 
 
